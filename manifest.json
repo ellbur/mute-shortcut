@@ -1,0 +1,13 @@
+
+{
+  "manifest_version": 2,
+  "name": "bb5-quick-copy-links",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://1.next.westlaw.com/Search/Results.html*"],
+      "js": ["jquery-3.3.1.min.js", "add_link.js"],
+      "css": ["bb5-quick-copy-links-styles.css"]
+    }
+  ]
+}
